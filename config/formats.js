@@ -415,7 +415,19 @@ exports.Formats = [
                 mod: 'sketchmons',
 		gameType: 'doubles',		
 		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
-		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
+		banlist: ['Unreleased', 'Illegal', 'Sky Drop', 'Dark Void', 'Soul Dew','Mewtwo','Lugia',
+			'Ho-Oh',
+			'Kyogre',
+			'Groudon',
+			'Rayquaza',
+			'Dialga',
+			'Palkia',
+			'Giratina', 'Giratina-Origin',
+			'Arceus', 'Arceus-Bug', 'Arceus-Dark', 'Arceus-Dragon', 'Arceus-Electric', 'Arceus-Fighting', 'Arceus-Fire', 'Arceus-Flying', 'Arceus-Ghost', 'Arceus-Grass', 'Arceus-Ground', 'Arceus-Ice', 'Arceus', 'Arceus-Poison', 'Arceus-Psychic', 'Arceus-Rock', 'Arceus-Steel', 'Arceus-Water',
+			'Reshiram',
+			'Zekrom',
+			'Kyurem-White'
+		]
 	},
         {
 		name: "OU Monotype Doubles",
