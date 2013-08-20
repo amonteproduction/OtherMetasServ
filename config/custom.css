@@ -1,0 +1,28 @@
+ body{
+  background: url(http://hdwallpapervault.com/wp-content/uploads/2013/06/Classic-Megaman-Wallpaper.jpg);
+  	background-size: absolute;
+}
+ 
+.sunweather, .sunnydayweather {
+background: url(http://www.nasa.gov/images/content/706436main_20121114-304-193Blend_M6-orig_full.jpg) no-repeat scroll left top;
+    opacity: 1 !important;
+        background-size: cover;
+  }
+
+.rainweather, .raindanceweather {
+background: url(http://www.poweredbypeanutbutter.com/wp-content/uploads/2011/11/rain1.jpg) no-repeat scroll left top;
+    opacity: 1 !important;
+        background-size: cover;
+  }
+  
+.hailweather {
+background: url(http://www.hdwallpapersinn.com/wp-content/uploads/2013/01/Snowstorm-2.jpg) no-repeat scroll left top;
+    opacity: 1 !important;
+        background-size: cover;
+  }
+
+.sandstormweather {
+background: url(http://www.mccullagh.org/db9/1ds-4/sandstorm-sahara-desert.jpg) no-repeat scroll left top;
+    opacity: 1 !important;
+        background-size: cover;
+  }
