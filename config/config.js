@@ -197,7 +197,7 @@ exports.groups = {
 	},
 	'&': {
 		id: "ommoderators",
-		name: "Other Meta Moderators",
+		name: "Other Meta Moderator",
 		inherit: '@',
 		jurisdiction: '@u',
 		promote: 'u',
