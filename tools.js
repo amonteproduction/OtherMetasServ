@@ -445,7 +445,7 @@ module.exports = (function () {
 		var level = set.level || 100;
 
 		var limit1 = true;
-		var sketch = false;
+		var sketch = true;
 
 		// This is a pretty complicated algorithm
 
