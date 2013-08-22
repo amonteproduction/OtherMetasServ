@@ -427,7 +427,7 @@ var cmds = {
 		if (!tour.userauth(user,room)) return this.parse('/tours');
 		if (room.decision) return this.sendReply('Prof. Oak: There is a time and place for everything! You cannot do this in battle rooms.');
 		var rid = room.id;
-		if (tour[rid].status != 0) return this.sendReply('There is already a tournament running, or there is one in a signup phase.');
+		if (tour[rid].status != 0) return this.sendReply('Prof. Oak: There is a time and place for everything! There is already a tournament running, or there is one in a signup phase.');
 		if (!target) return this.sendReply('Proper syntax for this command: /tour tier, size');
 		var targets = tour.splint(target);
 		if (targets.length != 2) return this.sendReply('Proper syntax for this command: /tour tier, size');
@@ -474,7 +474,7 @@ var cmds = {
 		if (tour[room.id] == undefined || tour[room.id].status == 0) return this.sendReply('There is no active tournament.');
 		tour[room.id].status = 0;
 		delete tour.timers[room.id];
-		room.addRaw('<h2><b>' + user.name + '</b> has ended the tournament.</h2>');
+		room.addRaw('<h2><b>' + user.name + '</b> has ended the tournament. What a Douche Right?</h2>');
 	},
 
 	toursize: function(target, room, user, connection) {
@@ -526,7 +526,7 @@ var cmds = {
 			//
 			
 			if (perplayerlog) {
-				room.addRaw('<b>' + user.name + '</b> has joined the tournament. <b><i>' + remslots + ' slot' + ( remslots == 1 ? '' : 's') + ' remaining.</b></i>');
+				this.sendReply('You have joined the tournament.' + remslots + ' slot' + ( remslots == 1 ? '' : 's') + ' remaining.</b></i>');
 				tour[room.id].playerslogged.push(user.userid);
 			} else if ( (tour[room.id].players.length - tour[room.id].playerslogged.length == logperiod) || ( remslots <= pplogmarg ) ) {
 				if (tour[room.id].players.length == tour[room.id].playerslogged.length + 1) {
