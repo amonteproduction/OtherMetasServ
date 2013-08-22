@@ -530,7 +530,7 @@ var cmds = {
 				tour[room.id].playerslogged.push(user.userid);
 			} else if ( (tour[room.id].players.length - tour[room.id].playerslogged.length == logperiod) || ( remslots <= pplogmarg ) ) {
 				if (tour[room.id].players.length == tour[room.id].playerslogged.length + 1) {
-					room.addRaw('<b>' + user.name + '</b> has joined the tournament. <b><i>' + remslots + ' slot' + ( remslots == 1 ? '' : 's') + ' remaining.</b></i>');
+					this.sendReply('You have joined the tournament.' + remslots + ' slot' + ( remslots == 1 ? '' : 's') + ' remaining.</b></i>');
 					tour[room.id].playerslogged.push(user.userid);
 				} else {
 					var someid = tour[room.id].players[tour[room.id].playerslogged.length];
