@@ -431,6 +431,15 @@ exports.Formats = [
 			'Kyurem-White'
 		]
 	},
+	{
+		name: "LC Doubles",
+		section: "Singles",
+
+		gameType: 'doubles',
+		maxLevel: 5,
+		ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Little Cup'],
+		banlist: ['Sonicboom', 'Dragon Rage', 'Berry Juice', 'Carvanha', 'Meditite', 'Gligar', 'Scyther', 'Sneasel', 'Tangela', 'Vulpix', 'Yanma', 'Soul Dew']
+	},
         {
 		name: "OU Monotype Doubles",
 		section: "Other Metagames Doubles",
