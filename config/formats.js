@@ -433,12 +433,12 @@ exports.Formats = [
 	},
 	{
 		name: "LC Doubles",
-		section: "Singles",
+		section: "Other Metagames Doubles",
 
 		gameType: 'doubles',
 		maxLevel: 5,
 		ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Little Cup'],
-		banlist: ['Sonicboom', 'Dragon Rage', 'Berry Juice', 'Carvanha', 'Meditite', 'Gligar', 'Scyther', 'Sneasel', 'Tangela', 'Vulpix', 'Yanma', 'Soul Dew']
+		banlist: ['Sonicboom', 'Dragon Rage', 'Berry Juice', 'Scyther', 'Sneasel', 'Soul Dew']
 	},
         {
 		name: "OU Monotype Doubles",
