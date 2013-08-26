@@ -17,31 +17,6 @@ exports.BattleFormats = {
 			return problems;
 		}
         },
-        
-	swalotclause: {
-                effectType: 'Rule',
-                onStart: function() {
-			this.add('rule', 'Swalot Clause: Swalots are allowed.');
-		},
-                validateSet: function(set) {
-                        var template = this.getTemplate(set.species);
-                        if (set.species !== 'Swalot') {
-                                return [set.species+" is banned because it's not a swalot you hoe."];
-                        }
-                }
-        },
-	gulpinclause: {
-                effectType: 'Rule',
-                onStart: function() {
-			this.add('rule', 'Gulpin Clause: Gulpins are allowed.');
-		},
-                validateSet: function(set) {
-                        var template = this.getTemplate(set.species);
-                        if (set.species !== 'Gulpin') {
-                                return [set.species+" is banned because it's not a gulpin you bitch."];
-                        }
-                }
-        },        
 	standard: {
 		effectType: 'Banlist',
 		ruleset: ['Sleep Clause Mod', 'Species Clause', 'OHKO Clause', 'Moody Clause', 'Evasion Moves Clause', 'HP Percentage Mod'],
