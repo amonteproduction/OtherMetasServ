@@ -1576,5 +1576,5 @@ exports.Formats = [
 		team: 'randomCC',
 
 		ruleset: ['Pokemon']
-	},
+	}
 ];	
