@@ -1,10 +1,10 @@
 exports.BattleMovedex = {	
 	"pixiepunch": {
-		num: 7765,
+		num: 795,
 		accuracy: 100,
 		basePower: 85,
 		category: "Physical",
-		desc: "nigga please.",
+		desc: "nga please.",
 		shortDesc: "ggg chance to ggg the target.",
 		id: "pixiepunch",
 		isViable: true,
@@ -17,7 +17,7 @@ exports.BattleMovedex = {
 		type: "Fairy"
 	},
 	"fairybeam": {
-		num: 8253,
+		num: 853,
 		accuracy: 100,
 		basePower: 85,
 		category: "Special",
