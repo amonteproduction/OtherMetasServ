@@ -1,23 +1,23 @@
 exports.BattleMovedex = {	
 	"pixiepunch": {
-		num: 795,
+		num: 1000,
 		accuracy: 100,
 		basePower: 85,
 		category: "Physical",
-		desc: "nga please.",
-		shortDesc: "ggg chance to ggg the target.",
+		desc: "Deals damage to one adjacent target. Fails if the target did not select a damaging move for use this turn, or if the target moves before the user. Makes contact. Priority +1.",
+		shortDesc: "Usually goes first. Fails if target is not attacking.",
 		id: "pixiepunch",
 		isViable: true,
 		name: "Pixie Punch",
-		pp: 15,
+		pp: 10,
 		priority: 0,
 		isContact: true,
-		secondary: false
+		secondary: false,
 		target: "normal",
 		type: "Fairy"
-	},
+	},	
 	"fairybeam": {
-		num: 853,
+		num: 1000,
 		accuracy: 100,
 		basePower: 85,
 		category: "Special",
