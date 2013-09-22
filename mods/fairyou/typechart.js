@@ -1,3 +1,4 @@
+exports.BattleTypeChart = { 
  "Bug": {
     "damageTaken": {
       "Bug": 0,
