@@ -13,6 +13,14 @@ exports.Formats = [
 	},
 	//OMs
 	///////////////////////////////////////////////////////////////////
+       {
+		name: "Fairy OU",
+		section: "Other Metagames",
+
+                mod: 'fairyou',
+		ruleset: ['Pokemon', 'Standard', 'Evasion Abilities Clause', 'Team Preview'],
+		banlist: ['Uber', 'Drizzle ++ Swift Swim', 'Soul Dew']
+	},
         {
 		name: "Sketchmons",
 		section: "Other Metagames",
@@ -89,7 +97,7 @@ exports.Formats = [
 	},
 	{
 		name: "Dive Battle (OU)",
-		section: "Singles",
+		section: "Other Metagames",
 
 		validateSet: function(set) {
 			var template = this.getTemplate(set.species || set.name);
