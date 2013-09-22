@@ -1,6 +1,6 @@
 exports.BattleMovedex = {
 	"pixiepunch": {
-		num: 1002,
+		num: 802,
 	        accuracy: 100,
 		basePower: 85,
 		category: "Physical",
@@ -17,7 +17,7 @@ exports.BattleMovedex = {
 		type: "Fairy"
 	},        
         "fairybeam": {
-                num: 1037,
+                num: 837,
                 accuracy: 100,
                 basePower: 85,
                 category: "Special",
@@ -25,7 +25,7 @@ exports.BattleMovedex = {
                 shortDesc: "Damages all adjacent foes.",
                 id: "fairybeam",
                 name: "Fairy Beam",
-                pp: 25,
+                pp: 15,
                 priority: 0,
                 secondary: false,
                 target: "allAdjacentFoes",
